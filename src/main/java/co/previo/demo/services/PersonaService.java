@@ -30,8 +30,12 @@ public class PersonaService implements PersonaRepositoryService{
 
 	@Override
 	public int save(Persona p) {
-		// TODO Auto-generated method stub
-		return 0;
+		int res=0;
+		Persona persona = personaRepository.save(p);
+		if(!persona.equals(null)){
+			res=1;
+		}
+		return res;
 	}
 
 	@Override
