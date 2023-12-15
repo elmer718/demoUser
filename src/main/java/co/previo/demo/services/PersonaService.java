@@ -39,8 +39,7 @@ public class PersonaService implements PersonaRepositoryService{
 
 	@Override
 	public void delte(int id) {
-		// TODO Auto-generated method stub
-		
+		personaRepository.deleteById(id);
 	}
 
 }
