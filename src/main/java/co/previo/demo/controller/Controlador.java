@@ -16,7 +16,7 @@ import co.previo.demo.modelo.Persona;
 import co.previo.demo.repositoryServices.PersonaRepositoryService;
 
 @Controller
-@RequestMapping
+@RequestMapping("/")
 public class Controlador {
 
 	@Autowired

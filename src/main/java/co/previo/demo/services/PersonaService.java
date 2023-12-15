@@ -18,7 +18,6 @@ public class PersonaService implements PersonaRepositoryService{
 	
 	@Override
 	public List<Persona> listar() {
-		// TODO Auto-generated method stub
 		return personaRepository.findAll();
 	}
 
